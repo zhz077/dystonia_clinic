@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2018-04-01T18:31:08-08:00" FORMAT="2.8" VERSION="2.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.8.xsd">
+    <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
+        <MEDIA_DESCRIPTOR MEDIA_URL="file:///C:/CD phenotyping/data_in/videos/Dys972_20121219.mp4" MIME_TYPE="video/mp4" RELATIVE_MEDIA_URL="../../../CD phenotyping/data_in/videos/Dys972_20121219.mp4"/>
+        <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:86c88cd3-48f1-4752-aa01-3fc6960ada64</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">22</PROPERTY>
+    </HEADER>
+    <TIME_ORDER>
+        <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="400"/>
+        <TIME_SLOT TIME_SLOT_ID="ts2" TIME_VALUE="89670"/>
+        <TIME_SLOT TIME_SLOT_ID="ts3" TIME_VALUE="100170"/>
+        <TIME_SLOT TIME_SLOT_ID="ts4" TIME_VALUE="142742"/>
+        <TIME_SLOT TIME_SLOT_ID="ts5" TIME_VALUE="143830"/>
+        <TIME_SLOT TIME_SLOT_ID="ts6" TIME_VALUE="159080"/>
+        <TIME_SLOT TIME_SLOT_ID="ts7" TIME_VALUE="163638"/>
+        <TIME_SLOT TIME_SLOT_ID="ts8" TIME_VALUE="184285"/>
+        <TIME_SLOT TIME_SLOT_ID="ts9" TIME_VALUE="247250"/>
+        <TIME_SLOT TIME_SLOT_ID="ts10" TIME_VALUE="279750"/>
+        <TIME_SLOT TIME_SLOT_ID="ts11" TIME_VALUE="321808"/>
+        <TIME_SLOT TIME_SLOT_ID="ts12" TIME_VALUE="486229"/>
+        <TIME_SLOT TIME_SLOT_ID="ts13" TIME_VALUE="501511"/>
+        <TIME_SLOT TIME_SLOT_ID="ts14" TIME_VALUE="518403"/>
+        <TIME_SLOT TIME_SLOT_ID="ts15" TIME_VALUE="522030"/>
+        <TIME_SLOT TIME_SLOT_ID="ts16" TIME_VALUE="533050"/>
+        <TIME_SLOT TIME_SLOT_ID="ts17" TIME_VALUE="538040"/>
+        <TIME_SLOT TIME_SLOT_ID="ts18" TIME_VALUE="550890"/>
+        <TIME_SLOT TIME_SLOT_ID="ts19" TIME_VALUE="551520"/>
+        <TIME_SLOT TIME_SLOT_ID="ts20" TIME_VALUE="576570"/>
+        <TIME_SLOT TIME_SLOT_ID="ts21" TIME_VALUE="648940"/>
+        <TIME_SLOT TIME_SLOT_ID="ts22" TIME_VALUE="827779"/>
+        <TIME_SLOT TIME_SLOT_ID="ts23" TIME_VALUE="835426"/>
+        <TIME_SLOT TIME_SLOT_ID="ts24" TIME_VALUE="857093"/>
+        <TIME_SLOT TIME_SLOT_ID="ts25" TIME_VALUE="864740"/>
+        <TIME_SLOT TIME_SLOT_ID="ts26" TIME_VALUE="882582"/>
+        <TIME_SLOT TIME_SLOT_ID="ts27" TIME_VALUE="889592"/>
+        <TIME_SLOT TIME_SLOT_ID="ts28" TIME_VALUE="897239"/>
+        <TIME_SLOT TIME_SLOT_ID="ts29" TIME_VALUE="904886"/>
+        <TIME_SLOT TIME_SLOT_ID="ts30" TIME_VALUE="941209"/>
+        <TIME_SLOT TIME_SLOT_ID="ts31" TIME_VALUE="949493"/>
+        <TIME_SLOT TIME_SLOT_ID="ts32" TIME_VALUE="969248"/>
+        <TIME_SLOT TIME_SLOT_ID="ts33" TIME_VALUE="972434"/>
+        <TIME_SLOT TIME_SLOT_ID="ts34" TIME_VALUE="982630"/>
+        <TIME_SLOT TIME_SLOT_ID="ts35" TIME_VALUE="989639"/>
+        <TIME_SLOT TIME_SLOT_ID="ts36" TIME_VALUE="1013855"/>
+        <TIME_SLOT TIME_SLOT_ID="ts37" TIME_VALUE="1019590"/>
+        <TIME_SLOT TIME_SLOT_ID="ts38" TIME_VALUE="1031698"/>
+        <TIME_SLOT TIME_SLOT_ID="ts39" TIME_VALUE="1067383"/>
+        <TIME_SLOT TIME_SLOT_ID="ts40" TIME_VALUE="1075030"/>
+        <TIME_SLOT TIME_SLOT_ID="ts41" TIME_VALUE="1083820"/>
+        <TIME_SLOT TIME_SLOT_ID="ts42" TIME_VALUE="1088560"/>
+        <TIME_SLOT TIME_SLOT_ID="ts43" TIME_VALUE="1140550"/>
+        <TIME_SLOT TIME_SLOT_ID="ts44" TIME_VALUE="1219519"/>
+    </TIME_ORDER>
+    <TIER DEFAULT_LOCALE="en" LANG_REF="und" LINGUISTIC_TYPE_REF="default-lt" TIER_ID="default">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1" CVE_REF="cveid0" TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts2">
+                <ANNOTATION_VALUE>eyes, 1-4</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a2" CVE_REF="cveid1" TIME_SLOT_REF1="ts3" TIME_SLOT_REF2="ts4">
+                <ANNOTATION_VALUE>sentences, 5</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a3" CVE_REF="cveid3" TIME_SLOT_REF1="ts5" TIME_SLOT_REF2="ts6">
+                <ANNOTATION_VALUE>AhhhEeee, 7</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a4" CVE_REF="cveid4" TIME_SLOT_REF1="ts7" TIME_SLOT_REF2="ts8">
+                <ANNOTATION_VALUE>tongue and mouth, 8-9</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a5" CVE_REF="cveid5" TIME_SLOT_REF1="ts9" TIME_SLOT_REF2="ts10">
+                <ANNOTATION_VALUE>drift head, 12</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a6" CVE_REF="cveid6" TIME_SLOT_REF1="ts11" TIME_SLOT_REF2="ts12">
+                <ANNOTATION_VALUE>straight head, 13</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a7" CVE_REF="cveid7" TIME_SLOT_REF1="ts13" TIME_SLOT_REF2="ts14">
+                <ANNOTATION_VALUE>geste, 14</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a8" CVE_REF="cveid8" TIME_SLOT_REF1="ts15" TIME_SLOT_REF2="ts16">
+                <ANNOTATION_VALUE>turn, 15a</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a9" CVE_REF="cveid9" TIME_SLOT_REF1="ts17" TIME_SLOT_REF2="ts18">
+                <ANNOTATION_VALUE>tilt, 15b</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a10" CVE_REF="cveid10" TIME_SLOT_REF1="ts19" TIME_SLOT_REF2="ts20">
+                <ANNOTATION_VALUE>updn, 15c</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a11" CVE_REF="cveid11" TIME_SLOT_REF1="ts21" TIME_SLOT_REF2="ts22">
+                <ANNOTATION_VALUE>paper, 18</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a12" CVE_REF="cveid12" TIME_SLOT_REF1="ts23" TIME_SLOT_REF2="ts24">
+                <ANNOTATION_VALUE>arms sup, 19</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a13" CVE_REF="cveid13" TIME_SLOT_REF1="ts25" TIME_SLOT_REF2="ts26">
+                <ANNOTATION_VALUE>arms pro, 20</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a14" CVE_REF="cveid14" TIME_SLOT_REF1="ts27" TIME_SLOT_REF2="ts28">
+                <ANNOTATION_VALUE>elbows, 21</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a15" CVE_REF="cveid15" TIME_SLOT_REF1="ts29" TIME_SLOT_REF2="ts30">
+                <ANNOTATION_VALUE>fingernose, 22</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a16" CVE_REF="cveid16" TIME_SLOT_REF1="ts31" TIME_SLOT_REF2="ts32">
+                <ANNOTATION_VALUE>tapping, 23</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a17" CVE_REF="cveid17" TIME_SLOT_REF1="ts33" TIME_SLOT_REF2="ts34">
+                <ANNOTATION_VALUE>hands, 24</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a18" CVE_REF="cveid18" TIME_SLOT_REF1="ts35" TIME_SLOT_REF2="ts36">
+                <ANNOTATION_VALUE>feet, 25</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a19" CVE_REF="cveid19" TIME_SLOT_REF1="ts37" TIME_SLOT_REF2="ts38">
+                <ANNOTATION_VALUE>stand frontal, 26</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a20" CVE_REF="cveid20" TIME_SLOT_REF1="ts39" TIME_SLOT_REF2="ts40">
+                <ANNOTATION_VALUE>walk Normal, 30</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a21" CVE_REF="cveid21" TIME_SLOT_REF1="ts41" TIME_SLOT_REF2="ts42">
+                <ANNOTATION_VALUE>walk Heels, 31</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a22" CVE_REF="cveid22" TIME_SLOT_REF1="ts43" TIME_SLOT_REF2="ts44">
+                <ANNOTATION_VALUE>walk Tandom, 32</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <LINGUISTIC_TYPE CONTROLLED_VOCABULARY_REF="Project 2 exam" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="default-lt" TIME_ALIGNABLE="true"/>
+    <LOCALE COUNTRY_CODE="US" LANGUAGE_CODE="en"/>
+    <LANGUAGE LANG_DEF="http://cdb.iso.org/lg/CDB-00130975-001" LANG_ID="und" LANG_LABEL="undetermined (und)"/>
+    <CONSTRAINT DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="1-1 association with a parent annotation" STEREOTYPE="Symbolic_Association"/>
+    <CONSTRAINT DESCRIPTION="Time alignable annotations within the parent annotation's time interval, gaps are allowed" STEREOTYPE="Included_In"/>
+    <CONTROLLED_VOCABULARY CV_ID="Project 2 exam">
+        <DESCRIPTION LANG_REF="und">steps from video exam protocol (DC Project 2)</DESCRIPTION>
+        <CV_ENTRY_ML CVE_ID="cveid0">
+            <CVE_VALUE DESCRIPTION="" LANG_REF="und">eyes, 1-4</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid1">
+            <CVE_VALUE DESCRIPTION="" LANG_REF="und">sentences, 5</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid2">
+            <CVE_VALUE DESCRIPTION="" LANG_REF="und">TaGaPa, 6</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid3">
+            <CVE_VALUE DESCRIPTION="" LANG_REF="und">AhhhEeee, 7</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid4">
+            <CVE_VALUE DESCRIPTION="" LANG_REF="und">tongue and mouth, 8-9</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid5">
+            <CVE_VALUE DESCRIPTION="" LANG_REF="und">drift head, 12</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid6">
+            <CVE_VALUE DESCRIPTION="" LANG_REF="und">straight head, 13</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid7">
+            <CVE_VALUE DESCRIPTION="" LANG_REF="und">geste, 14</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid8">
+            <CVE_VALUE DESCRIPTION="" LANG_REF="und">turn, 15a</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid9">
+            <CVE_VALUE DESCRIPTION="" LANG_REF="und">tilt, 15b</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid10">
+            <CVE_VALUE DESCRIPTION="" LANG_REF="und">updn, 15c</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid11">
+            <CVE_VALUE DESCRIPTION="" LANG_REF="und">paper, 18</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid12">
+            <CVE_VALUE DESCRIPTION="" LANG_REF="und">arms sup, 19</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid13">
+            <CVE_VALUE DESCRIPTION="" LANG_REF="und">arms pro, 20</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid14">
+            <CVE_VALUE DESCRIPTION="" LANG_REF="und">elbows, 21</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid15">
+            <CVE_VALUE DESCRIPTION="" LANG_REF="und">fingernose, 22</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid16">
+            <CVE_VALUE DESCRIPTION="" LANG_REF="und">tapping, 23</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid17">
+            <CVE_VALUE DESCRIPTION="" LANG_REF="und">hands, 24</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid18">
+            <CVE_VALUE DESCRIPTION="" LANG_REF="und">feet, 25</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid19">
+            <CVE_VALUE DESCRIPTION="" LANG_REF="und">stand frontal, 26</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid20">
+            <CVE_VALUE DESCRIPTION="" LANG_REF="und">walk Normal, 30</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid21">
+            <CVE_VALUE DESCRIPTION="" LANG_REF="und">walk Heels, 31</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid22">
+            <CVE_VALUE DESCRIPTION="" LANG_REF="und">walk Tandom, 32</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid23">
+            <CVE_VALUE DESCRIPTION="" LANG_REF="und">task, V</CVE_VALUE>
+        </CV_ENTRY_ML>
+    </CONTROLLED_VOCABULARY>
+</ANNOTATION_DOCUMENT>

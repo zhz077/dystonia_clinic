@@ -1,0 +1,24 @@
+	stepnumber	reviewer1	start1	end1	duration1	reviewer2	start2	end2	duration2	intersect	union	inter/uni
+0	eyes, 1-4	JV	17400	81300	63900	QC	22476	86389	63913	22476->81300	17400->86389	0.8526576700633435
+1	sentences, 5	JV	89000	108100	19100	QC	90329	107729	17400	90329->107729	89000->108100	0.9109947643979057
+2	TaGaPa, 6	JV	111000	118200	7200	QC	111828	118228	6400	111828->118200	111000->118228	0.8815716657443277
+3	AhhhEeee, 7	JV	125950	150050	24100	QC	127128	150698	23570	127128->150050	125950->150698	0.9262162598997898
+4	tongue and mouth, 8-9											
+5	drift head, 12											
+6	straight head, 13											
+7	geste, 14											
+8	turn, 15a											
+9	updn, 15c											
+10	tilt, 15b											
+11	paper, 18											
+12	arms pro, 20											
+13	arms sup, 19											
+14	elbows, 21											
+15	fingernose, 22											
+16	tapping, 23											
+17	hands, 24											
+18	feet, 25											
+19	stand frontal, 26											
+20	walk Normal, 30											
+21	walk Heels, 31											
+22	walk Tandom, 32											
