@@ -10,8 +10,7 @@ def loadDF(filename):
     with open(filename) as f:
         content = f.readlines()
     content = [x.replace('"', '') for x in content]
-    content = [x.strip() for x in content]
-    
+    content = [x.strip() for x in content] 
     reviewer = filename.split("/")[-2]
     dicLocal = {}
     #the dislocal will be [reviewer, steptitle, start, end, duration]
@@ -20,10 +19,7 @@ def loadDF(filename):
     for i in range (len(content)-1):
         line = content[i+1].split('\t')
         if len(line) > 8:
-            if reviewer == 'ZZ':   
-                toStore=[str(int(float(line[-6])*1000)),str(int(float(line[-4])*1000)),str(int(float(line[-2])*1000))]
-            else:
-                toStore = [line[-6],line[-4],line[-2]]
+            toStore = [line[-6],line[-4],line[-2]]
             if line[-1] not in dicLocal:
                 dicLocal[line[-1]] = toStore
             else:
@@ -37,7 +33,7 @@ def loadDF(filename):
         global steplist
         steplist= [ x for x in dicLocal.keys() if x !='reviewer']
 
-    return dicLocal                                                       
+    return dicLocal
 
 def combine(alist,steplist):
     #df is in the form of 
@@ -137,13 +133,14 @@ def main():
                     dic[f] = [newdf]
                 else:
                     dic[f].append(newdf)
+    
     #write every file to a csv
     os.mkdir('processed')
     os.chdir('processed')
 
     for key in dic:
         dic[key] = combine(dic[key],steplist)
-        dic[key] = findUA(dic[key])
+        #dic[key] = findUA(dic[key])
         dic[key].to_csv(key.split('.txt')[0]+'.csv', sep='\t')
 if __name__=="__main__":
     main()                        
