@@ -19,7 +19,7 @@ def main():
                             fields.append(i)
                         writer = csv.DictWriter(csvf,fieldnames = fields)
                         writerRepeated = csv.DictWriter(repeated,fieldnames=['patient','step','reviewer1','reviewer2','R1 #repeats','R2 #repeats','interval1','interval2'])
-                        writerFinal = csv.DictWriter(finalcsv,fieldnames=['patient','step','reviewer1','reviewer2','agree on # repeats','intersection ==0 ','inter/Union','Time Window'])
+                        writerFinal = csv.DictWriter(finalcsv,fieldnames=['patient','step','reviewer1','reviewer2','agree on # repeats','intersection ==0','inter/Union','Time Window'])
 
                         if counter == 0:
                             writer.writeheader()
@@ -112,12 +112,13 @@ def main():
                                 space = float(interliststart1[1]) - float(interlistend1[0])
                             elif len(interliststart2) == 2:
                                 space = float(interliststart2[1]) -float(interlistend2[0])
-                            dcfinal['inter/Union'] =interTime/(unionEnd-unionStart-space)
+                            dcfinal['inter/Union'] =round(interTime/(unionEnd-unionStart-space),3)
                             #exception1: == 1
+                            dcfinal['intersection ==0'] = 1
                             if dcfinal['inter/Union'] >=1 or dcfinal['inter/Union'] <=0 :
-                                dcfinal['inter/Union'] = 0
+                                dcfinal['inter/Union'] = 0.00
+                                dcfinal['intersection ==0'] = 0
                                 dcfinal['Time Window'] = ' '.join([dcrepeated['interval1'],dcrepeated['interval2'] ])
-                                print(dcfinal['Time Window'])
                             if len(interliststart1) >1  or len(interliststart2) >1:
                                 writerRepeated.writerow(dcrepeated)
                             writerFinal.writerow(dcfinal)
