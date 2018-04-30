@@ -86,12 +86,25 @@ def main():
                             interlistend1 = sorted(interlistend1)
                             interlistend2 = sorted(interlistend2)
                             interTime = 0
+                            intersectstart = []
+                            intersectend = []
+                            dcfinal['Time Window'] = []  
                             for i in range(len(interliststart1)):
                                 for j in range(len(interliststart2)):
                                     startT=max(float(interliststart1[i]),float(interliststart2[j]))
                                     endT=min(float(interlistend1[i]),float(interlistend2[j]))
                                     if (float(endT) - float(startT)) >0:
                                         interTime = interTime+float(endT) - float(startT)
+                                        intersectstart.append(startT)
+                                        intersectend.append(endT)
+                            
+                            for k in range(len(intersectstart)):
+                                dcfinal['Time Window'].append('->'.join([str(int(float(intersectstart[k]))),str(int(float(intersectend[k])))]))
+                            
+                            dcrepeated['interval1'] = ' '.join(dcrepeated['interval1'])
+                            dcrepeated['interval2'] = ' '.join(dcrepeated['interval2'])                            
+                            dcfinal['Time Window']  = ' '.join(dcfinal['Time Window'])
+                            
                             space = 0
                             if len(interliststart1) == 2 and len(interliststart2) == 2:
                                 space=min(float(interliststart1[1]),float(interliststart2[1]))-max(float(interlistend1[0]),float(interlistend2[0]))
@@ -99,18 +112,12 @@ def main():
                                 space = float(interliststart1[1]) - float(interlistend1[0])
                             elif len(interliststart2) == 2:
                                 space = float(interliststart2[1]) -float(interlistend2[0])
-                            
-                            if dcfinal['patient'] == "380" and space != 0:
-                                print(max(float(interlistend1[0]),float(interlistend2[0])),min(float(interliststart1[1]),float(interliststart2[1])))
                             dcfinal['inter/Union'] =interTime/(unionEnd-unionStart-space)
                             #exception1: == 1
-                            if dcfinal['inter/Union'] >=1 or dcfinal['inter/Union'] <0 :
+                            if dcfinal['inter/Union'] >=1 or dcfinal['inter/Union'] <=0 :
                                 dcfinal['inter/Union'] = 0
-                            dcfinal['Time Window'] =dcrepeated['interval1']+dcrepeated['interval2']
-                            dcrepeated['interval1'] = ' '.join(dcrepeated['interval1'])
-                            dcrepeated['interval2'] = ' '.join(dcrepeated['interval2'])
-                            dcfinal['Time Window']  = ' '.join(dcfinal['Time Window'])
-                            #Exception 1: file missing /step missing
+                                dcfinal['Time Window'] = ' '.join([dcrepeated['interval1'],dcrepeated['interval2'] ])
+                                print(dcfinal['Time Window'])
                             if len(interliststart1) >1  or len(interliststart2) >1:
                                 writerRepeated.writerow(dcrepeated)
                             writerFinal.writerow(dcfinal)
