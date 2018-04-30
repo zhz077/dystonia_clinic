@@ -91,29 +91,29 @@ patient,step,reviewer1,reviewer2,agree on # repeats,intersection ==0,inter/Union
 784,"walk Normal, 30",EC,CB,1,1,0.947,781228->795868
 784,"walk Heels, 31",EC,CB,1,1,0.661,814894->824798
 784,"walk Tandom, 32",EC,CB,1,1,0.851,843586->852642
-196,"eyes, 1-4",QC,nan,0,0,0.0,10768->69231 
-196,"sentences, 5",QC,nan,0,0,0.0,81115->98534 
+196,"eyes, 1-4",ZZ,QC,1,1,0.992,10912->69231
+196,"sentences, 5",ZZ,QC,1,1,0.925,81115->98534
 196,"TaGaPa, 6",nan,nan,0,0,0.0, 
-196,"AhhhEeee, 7",QC,nan,0,0,0.0,106024->112544 
-196,"tongue and mouth, 8-9",QC,nan,0,0,0.0,118524->143543 
-196,"drift head, 12",QC,nan,0,0,0.0,191343->201346 
-196,"straight head, 13",QC,nan,0,0,0.0,233880->289527 
-196,"geste, 14",QC,nan,0,0,0.0,396430->405803 
-196,"turn, 15a",QC,nan,0,0,0.0,296857->307322 
-196,"updn, 15c",QC,nan,0,0,0.0,326487->336334 
-196,"tilt, 15b",QC,nan,0,0,0.0,310082->325084 
-196,"paper, 18",QC,nan,0,0,0.0,411293->535824 
-196,"arms pro, 20",QC,nan,0,0,0.0,547280->560447 
-196,"arms sup, 19",QC,nan,0,0,0.0,566187->575665 
-196,"elbows, 21",QC,nan,0,0,0.0,578734->587811 
-196,"fingernose, 22",QC,nan,0,0,0.0,588030->608414 
-196,"tapping, 23",QC,nan,0,0,0.0,621727->634119 
-196,"hands, 24",QC,nan,0,0,0.0,637156->643395 
-196,"feet, 25",QC,nan,0,0,0.0,653117->666129 
-196,"stand frontal, 26",QC,nan,0,0,0.0,667584->674807 
-196,"walk Normal, 30",QC,nan,0,0,0.0,715109->733618 
-196,"walk Heels, 31",QC,nan,0,0,0.0,751081->758031 
-196,"walk Tandom, 32",QC,nan,0,0,0.0,766644->790173 
+196,"AhhhEeee, 7",ZZ,QC,1,1,0.862,106024->112544
+196,"tongue and mouth, 8-9",ZZ,QC,1,1,0.962,118524->143543
+196,"drift head, 12",ZZ,QC,1,1,0.795,191343->201346
+196,"straight head, 13",ZZ,QC,1,1,0.848,233880->289396
+196,"geste, 14",ZZ,QC,1,1,0.676,396430->405803
+196,"turn, 15a",ZZ,QC,1,1,0.863,296857->307322
+196,"updn, 15c",ZZ,QC,1,1,0.958,326487->336334
+196,"tilt, 15b",ZZ,QC,1,1,0.922,310082->325084
+196,"paper, 18",ZZ,QC,1,1,0.912,411293->535824
+196,"arms pro, 20",ZZ,QC,1,1,0.944,547280->560447
+196,"arms sup, 19",ZZ,QC,1,1,0.63,566187->575665
+196,"elbows, 21",ZZ,QC,1,1,0.627,578734->585912
+196,"fingernose, 22",ZZ,QC,1,1,0.967,588030->608414
+196,"tapping, 23",ZZ,QC,1,1,0.903,621830->634119
+196,"hands, 24",ZZ,QC,1,1,0.813,637156->643395
+196,"feet, 25",ZZ,QC,1,1,0.895,653386->666129
+196,"stand frontal, 26",ZZ,QC,1,1,0.807,667587->674807
+196,"walk Normal, 30",ZZ,QC,1,1,0.419,725503->733618
+196,"walk Heels, 31",ZZ,QC,1,1,0.752,751193->758031
+196,"walk Tandom, 32",ZZ,QC,1,1,0.417,780287->790173
 814,"eyes, 1-4",ZZ,JV,1,1,0.705,19600->79627
 814,"sentences, 5",ZZ,JV,1,1,0.959,88282->102200
 814,"TaGaPa, 6",ZZ,JV,1,1,0.913,105420->110900
@@ -3679,29 +3679,6 @@ patient,step,reviewer1,reviewer2,agree on # repeats,intersection ==0,inter/Union
 12,"walk Normal, 30",EC,QC,1,1,0.872,600968->609433
 12,"walk Heels, 31",EC,QC,1,1,0.785,622522->631899
 12,"walk Tandom, 32",EC,QC,1,1,0.883,654399->666663
-simple test,"eyes, 1-4",nan,nan,0,0,0.0, 
-simple test,"sentences, 5",nan,nan,0,0,0.0, 
-simple test,"TaGaPa, 6",nan,nan,0,0,0.0, 
-simple test,"AhhhEeee, 7",nan,nan,0,0,0.0, 
-simple test,"tongue and mouth, 8-9",nan,nan,0,0,0.0, 
-simple test,"drift head, 12",nan,nan,0,0,0.0, 
-simple test,"straight head, 13",nan,nan,0,0,0.0, 
-simple test,"geste, 14",nan,nan,0,0,0.0, 
-simple test,"turn, 15a",nan,nan,0,0,0.0, 
-simple test,"updn, 15c",nan,nan,0,0,0.0, 
-simple test,"tilt, 15b",nan,nan,0,0,0.0, 
-simple test,"paper, 18",nan,nan,0,0,0.0, 
-simple test,"arms pro, 20",nan,nan,0,0,0.0, 
-simple test,"arms sup, 19",nan,nan,0,0,0.0, 
-simple test,"elbows, 21",nan,nan,0,0,0.0, 
-simple test,"fingernose, 22",nan,nan,0,0,0.0, 
-simple test,"tapping, 23",nan,nan,0,0,0.0, 
-simple test,"hands, 24",nan,nan,0,0,0.0, 
-simple test,"feet, 25",nan,nan,0,0,0.0, 
-simple test,"stand frontal, 26",nan,nan,0,0,0.0, 
-simple test,"walk Normal, 30",nan,nan,0,0,0.0, 
-simple test,"walk Heels, 31",nan,nan,0,0,0.0, 
-simple test,"walk Tandom, 32",nan,nan,0,0,0.0, 
 885,"eyes, 1-4",JV,CB,1,1,0.865,18242->70500
 885,"sentences, 5",JV,CB,1,1,0.926,80487->97622
 885,"TaGaPa, 6",JV,CB,1,1,0.938,103550->109036
