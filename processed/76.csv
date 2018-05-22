@@ -1,24 +1,24 @@
 	stepnumber	reviewer1	start1	end1	duration1	reviewer2	start2	end2	duration2	intersect	union	inter/uni
-0	eyes, 1-4					QC	11296	88484	77188			
-1	sentences, 5					QC	96522	114391	17869			
+0	eyes, 1-4					QC	11108	91814	80706			
+1	sentences, 5					QC	96300	114900	18600			
 2	TaGaPa, 6											
-3	AhhhEeee, 7					QC	120503	133222	12719			
-4	tongue and mouth, 8-9					QC	136270	153804	17534			
-5	drift head, 12					QC	178043	189779	11736			
-6	straight head, 13					QC	212027	271965	59938			
-7	geste, 14					QC	687031	718787	31756			
-8	turn, 15a					QC	278572	290017	11445			
-9	updn, 15c					QC	302177	311939	9762			
-10	tilt, 15b					QC	291537	301057	9520			
-11	paper, 18					QC	365785	430911	65126			
-12	arms pro, 20					QC	461999	473792	11793			
-13	arms sup, 19					QC	476308	488376	12068			
-14	elbows, 21					QC	492512	500241	7729			
-15	fingernose, 22					QC	503452	519952	16500			
-16	tapping, 23					QC	527176	540732	13556			
-17	hands, 24					QC	542762	550198	7436			
-18	feet, 25					QC	557813	581001	23188			
-19	stand frontal, 26					QC	586108	591128	5020			
-20	walk Normal, 30					QC	627951	634937	6986			
-21	walk Heels, 31					QC	650763	657535	6772			
-22	walk Tandom, 32					QC	673807	684632	10825			
+3	AhhhEeee, 7					QC	119600	133700	14100			
+4	tongue and mouth, 8-9					QC	135600	153200	17600			
+5	drift head, 12					QC	174950	189250	14300			
+6	straight head, 13					QC	211150	271450	60300			
+7	geste, 14											
+8	turn, 15a					QC	278450	290350	11900			
+9	updn, 15c					QC	301950	312350	10400			
+10	tilt, 15b					QC	291350	301050	9700			
+11	paper, 18					QC	365500	431400	65900			
+12	arms pro, 20					QC	476200	488200	12000			
+13	arms sup, 19					QC	460800	475100	14300			
+14	elbows, 21					QC	491550	501250	9700			
+15	fingernose, 22					QC	503250	519850	16600			
+16	tapping, 23					QC	527500	541300	13800			
+17	hands, 24					QC	544500	550100	5600			
+18	feet, 25					QC	565850	580950	15100			
+19	stand frontal, 26					QC	586150	590750	4600			
+20	walk Normal, 30					QC	627600	634600	7000			
+21	walk Heels, 31					QC	650650	657750	7100			
+22	walk Tandom, 32					QC	672850	684850	12000			
